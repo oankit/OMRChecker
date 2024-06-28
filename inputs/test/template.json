@@ -1,0 +1,22 @@
+{
+    "pageDimensions": [ 300, 400 ],
+    "bubbleDimensions": [ 25, 20 ],
+    "customLabels": {},
+    "fieldBlocks": {
+      "MCQBlock1": {
+        "fieldType": "QTYPE_MCQ5",
+        "origin": [ 77, 10 ],
+        "fieldLabels": ["q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10"],
+        "bubblesGap": 39,
+        "labelsGap": 40
+      }
+    },
+    "preProcessors": [
+      {
+        "name": "CropPage",
+        "options": {
+          "morphKernel": [ 10, 10 ]
+        }
+      }
+    ]
+  }
