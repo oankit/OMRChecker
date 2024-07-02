@@ -1,2 +1,3 @@
 # Ignore the pycache folder
 **/__pycache__
+**/outputs
